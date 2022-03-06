@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+DEMO #1
+Design and build a Step-Flow UX pattern product checkout experience, where the following steps occur.
+Steps
 
-## Getting Started
+1. Display a list of selectable products rendered from an API [you may simulate the api loading however you want].
+   a. Multi selection of products must be allowed
+   b. Continue button to confirm selection
+2. On “Continue” from the previous page, render a page to fetch the address
+   [billing/shipping address] of the customer.
+3. On “Continue” from the previous page, render a page to display the final price including
+   discount.
+4. On Submit,
+   a. If the API call is successful, display a confirmation of the success.
+   b. If the API call fails, then display an error message to illustrate.
+   Points to note:
+   ● You must not use multiple URL routes for the page, the entire experience should be in
+   one-page
+   ● It must be possible to go back and forth between any step and the previously saved data
+   must be available pre-filled/selected.
+   ● You may use any version of react and any library of your choosing.
+   ● It will be a bonus if you provide aesthetic styling to the page.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### To start the app "yarn start"

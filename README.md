@@ -21,3 +21,5 @@ Steps
    ● It will be a bonus if you provide aesthetic styling to the page.
 
 ### To start the app "yarn start"
+
+![alt text](https://github.com/sidwachche/shopping-app/blob/main/public/images/app.jpeg)

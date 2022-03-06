@@ -23,3 +23,6 @@ Steps
 ### To start the app "yarn start"
 
 ![alt text](https://github.com/sidwachche/shopping-app/blob/main/public/images/app.jpeg)
+
+![alt text](https://github.com/sidwachche/shopping-app/blob/main/public/images/address-page.jpeg)
+![alt text](https://github.com/sidwachche/shopping-app/blob/main/public/images/cart-page.jpeg)
